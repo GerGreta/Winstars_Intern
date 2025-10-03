@@ -2,7 +2,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 from interface import MnistClassifierInterface
 
-class CnnKerasClassifier(MnistClassifierInterface):
+class CnnMnistClassifier(MnistClassifierInterface):
     def __init__(self, input_shape=(28,28,1), num_classes=10):
         self.model = keras.Sequential([
             layers.Conv2D(32, (3,3), activation="relu", input_shape=input_shape),
