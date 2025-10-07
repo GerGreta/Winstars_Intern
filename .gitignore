@@ -37,6 +37,8 @@ build/
 .idea/
 
 images/
+models/
+
 
 # Ignore model files
 *.pth
