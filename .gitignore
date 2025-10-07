@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual Environment
+.venv/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Others
+*.egg-info/
+dist/
+build/
+
+# Ignore PyCharm project files
+.idea/
+
+images/
+
+# Ignore model files
+*.pth
+*.pht
+*.safetensors
+*.bin
+
